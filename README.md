@@ -2,7 +2,7 @@
 <h2>Fandom</h2>
 <a href="www.fandom.com">Fandom</a> is a media conglomerate backed by a private equity firm TPG Capital. 
 
-The website offers a platform for hosting wiki pages with social media features on various topics such as video games, movies, books, and TV series.[3] The company also owns several entertainment outlets such as GameSpot and TV Guide, multimedia databases such as GameFAQs, Metacritic and ComicVine, as well as online retailers such as Fanatical[1].
+The website offers a platform for hosting wiki pages with social media features on various topics such as video games, movies, books, and TV series.[3] The company also owns several entertainment outlets such as GameSpot and TV Guide, multimedia databases such as GameFAQs, Metacritic and ComicVine, as well as online retailers such as Fanatical[^1].
 
 However, during the editing process, many editors aim to achieve better page rendering and an enhanced browsing experience, which requires the use of CSS.
 
@@ -14,7 +14,7 @@ First, locate "Contact Us" at <a href="https://support.fandom.com">https://suppo
 
 If Fandom approves your request, navigate to &lt;wikiname&gt;.fandom.com/wiki/MediaWiki:Common.js on your website, where you will find the page editable.
 
-Insert the following code[2]:
+Insert the following code[^2]:
 
 ```JavaScript
 mw.hook("wikipage.content").add(function () {
@@ -76,5 +76,5 @@ Finally, create Template:CSS with the following code:
 ```
 After completing the above steps, you only need to insert {{CSS|CSS file name (must be created within the same wiki)}} or {{CSS|content=CSS content}} on the page to apply the CSS effects.
 
-[1]:Fandom (website), Wikipedia, 10 Dec. 2025,  <a href="https://en.wikipedia.org/wiki/Fandom_(website)">https://en.wikipedia.org/wiki/Fandom_(website)</a>.
-[2]:MediaWiki:Common.js, Backrooms Fandom, 2 Nov. 2025, <a href="https://backrooms.fandom.com/zh/wiki/MediaWiki:Common.js">https://backrooms.fandom.com/zh/wiki/MediaWiki:Common.js</a>.
+[^1]:Fandom (website), Wikipedia, 10 Dec. 2025,  <a href="https://en.wikipedia.org/wiki/Fandom_(website)">https://en.wikipedia.org/wiki/Fandom_(website)</a>.
+[^2]:MediaWiki:Common.js, Backrooms Fandom, 2 Nov. 2025, <a href="https://backrooms.fandom.com/zh/wiki/MediaWiki:Common.js">https://backrooms.fandom.com/zh/wiki/MediaWiki:Common.js</a>.
