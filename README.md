@@ -2,7 +2,7 @@
 <h2>Fandom</h2>
 <a href="www.fandom.com">Fandom</a> is a media conglomerate backed by a private equity firm TPG Capital. 
 
-The website offers a platform for hosting wiki pages with social media features on various topics such as video games, movies, books, and TV series.[3] The company also owns several entertainment outlets such as GameSpot and TV Guide, multimedia databases such as GameFAQs, Metacritic and ComicVine, as well as online retailers such as Fanatical[^1].
+The website offers a platform for hosting wiki pages with social media features on various topics such as video games, movies, books, and TV series.The company also owns several entertainment outlets such as GameSpot and TV Guide, multimedia databases such as GameFAQs, Metacritic and ComicVine, as well as online retailers such as Fanatical[^1].
 
 However, during the editing process, many editors aim to achieve better page rendering and an enhanced browsing experience, which requires the use of CSS.
 
