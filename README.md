@@ -12,6 +12,8 @@ It is assumed that you have administrator privileges on the website; if not, you
 
 First, locate "Contact Us" at <a href="https://support.fandom.com">https://support.fandom.com</a>, fill in and submit the form to Fandom in the following format.
 
+![RequestOrder](appealrequest.png)
+
 If Fandom approves your request, navigate to &lt;wikiname&gt;.fandom.com/wiki/MediaWiki:Common.js on your website, where you will find the page editable.
 
 Insert the following code[^2]:
