@@ -25,7 +25,7 @@ mw.hook("wikipage.content").add(function () {
 ```
 Subsequently, create the page Module:CSS
 
-Insert the code:
+Insert the code[^2]:
 
 ```Lua
 local p = {}
@@ -69,7 +69,7 @@ end
 return p
 ```
 
-Finally, create Template:CSS with the following code:
+Finally, create Template:CSS with the following code[^2]:
 
 ```HTML
 <includeonly>{{#invoke:CSS|import_css}}</includeonly>
@@ -77,4 +77,4 @@ Finally, create Template:CSS with the following code:
 After completing the above steps, you only need to insert {{CSS|CSS file name (must be created within the same wiki)}} or {{CSS|content=CSS content}} on the page to apply the CSS effects.
 
 [^1]:Fandom (website), Wikipedia, 10 Dec. 2025,  <a href="https://en.wikipedia.org/wiki/Fandom_(website)">https://en.wikipedia.org/wiki/Fandom_(website)</a>.
-[^2]:MediaWiki:Common.js, Backrooms Fandom, 2 Nov. 2025, <a href="https://backrooms.fandom.com/zh/wiki/MediaWiki:Common.js">https://backrooms.fandom.com/zh/wiki/MediaWiki:Common.js</a>.
+[^2]:MediaWiki:Common.js, Backrooms Fandom, 28 Sep. 2025, <a href="https://backrooms.fandom.com/wiki/MediaWiki:Common.js">https://backrooms.fandom.com/wiki/MediaWiki:Common.js</a>.
